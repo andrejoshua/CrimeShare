@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About Us"
+        android:id="@+id/textView3"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        ></LinearLayout>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/andre_about"
+        android:src="@drawable/andre_about"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Andrew Joshua N"
+        android:id="@+id/Andre_Name"
+        android:layout_alignTop="@+id/andre_about"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5112100149"
+        android:id="@+id/AndreNRP"
+        android:layout_below="@+id/Andre_Name"
+        android:layout_alignLeft="@+id/Andre_Name"
+        android:layout_alignStart="@+id/Andre_Name" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/adien_about"
+        android:src="@drawable/adien_about"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/andre_about"
+        android:layout_alignLeft="@+id/andre_about"
+        android:layout_alignStart="@+id/andre_about" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Addien Haniefardy"
+        android:id="@+id/AddienName"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/Andre_Name"
+        android:layout_alignEnd="@+id/Andre_Name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5112100127"
+        android:id="@+id/AddienNRP"
+        android:layout_below="@+id/AddienName"
+        android:layout_alignLeft="@+id/AddienName"
+        android:layout_alignStart="@+id/AddienName" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/yudha_about"
+        android:src="@drawable/yudha_about"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/adien_about"
+        android:layout_alignLeft="@+id/adien_about"
+        android:layout_alignStart="@+id/adien_about" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Yusuf Azis H.T.Y."
+        android:id="@+id/YudhaName"
+        android:layout_alignTop="@+id/yudha_about"
+        android:layout_alignRight="@+id/AddienName"
+        android:layout_alignEnd="@+id/AddienName"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5112100086"
+        android:id="@+id/YudhaNRP"
+        android:layout_below="@+id/YudhaName"
+        android:layout_alignLeft="@+id/YudhaName"
+        android:layout_alignStart="@+id/YudhaName" />
+
+</RelativeLayout>

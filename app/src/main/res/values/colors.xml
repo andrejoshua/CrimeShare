@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="retroBase">#27469C</color>
+    <color name="retroBlue">#3B5BCA</color>
+    <color name="retroBluerBlue">#90C0D8</color>
+    <color name="retroWhite">#F3F4E4</color>
+    <color name="retroGray">#A5D1CD</color>
+    <color name="retroDark">#4890A8</color>
+</resources>
